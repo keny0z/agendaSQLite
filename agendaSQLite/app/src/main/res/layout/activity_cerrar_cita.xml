@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.citas_cerrar.CerrarCita">
+
+    <TextView
+        android:id="@+id/txtDocumento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Documento"
+        app:layout_constraintBottom_toBottomOf="@+id/txtInfoPersona"
+        app:layout_constraintStart_toEndOf="@+id/txtInfoPersona" />
+
+    <TextView
+        android:id="@+id/txtNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Nombres"
+        app:layout_constraintBottom_toBottomOf="@+id/txtDocumento"
+        app:layout_constraintStart_toEndOf="@+id/txtDocumento" />
+
+    <TextView
+        android:id="@+id/txtFechaInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Fecha de inicio"
+        app:layout_constraintBottom_toBottomOf="@+id/txtInfoInicio"
+        app:layout_constraintStart_toEndOf="@+id/txtInfoInicio" />
+
+    <TextView
+        android:id="@+id/txtHoraInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Hora de inicio"
+        app:layout_constraintBottom_toBottomOf="@+id/txtFechaInicio"
+        app:layout_constraintStart_toEndOf="@+id/txtFechaInicio" />
+
+    <TextView
+        android:id="@+id/txtObservacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Observacion"
+        app:layout_constraintBottom_toBottomOf="@+id/txtInfoObservacion"
+        app:layout_constraintStart_toEndOf="@+id/txtInfoObservacion" />
+
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Estado"
+        app:layout_constraintBottom_toBottomOf="@+id/txtInfoEstado"
+        app:layout_constraintStart_toEndOf="@+id/txtInfoEstado" />
+
+    <TextView
+        android:id="@+id/txtInfoPersona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Persona:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtInfoInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fecha de inicio:"
+        app:layout_constraintStart_toStartOf="@+id/txtInfoPersona"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoPersona" />
+
+    <TextView
+        android:id="@+id/txtInfoObservacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Observacion:"
+        app:layout_constraintStart_toStartOf="@+id/txtInfoInicio"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoInicio" />
+
+    <TextView
+        android:id="@+id/txtInfoEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Estado:"
+        app:layout_constraintStart_toStartOf="@+id/txtInfoObservacion"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoObservacion" />
+
+    <EditText
+        android:id="@+id/txtFechaFin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/digite_fecha_fin"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfoEstado" />
+
+    <EditText
+        android:id="@+id/txtHoraFin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="@string/digite_hora_fin"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaFin" />
+
+    <Button
+        android:id="@+id/btnCerrarCita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Cerrar Cita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHoraFin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

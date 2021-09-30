@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/activity_consulta_cita_activa.xml" value="0.103125" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/activity_otra.xml" value="0.1" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/app_bar_main.xml" value="0.18" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_consulta_cita.xml" value="0.17224080267558528" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_consulta_cita_activa.xml" value="0.22" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_consulta_citas.xml" value="0.14322916666666666" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_crear_cita.xml" value="0.33" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_crear_citas.xml" value="0.33" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_home.xml" value="0.12771739130434784" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_persona.xml" value="0.1" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/Usuario/Documents/Dispositivos Moviles/dispositivosMoviles2021/dispositivosMoviles2021-master/agendaSQLite/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/layout/content_main.xml" value="0.16621376811594202" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/layout/fragment_gallery.xml" value="0.1640625" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/layout/fragment_persona.xml" value="0.2210144927536232" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/menu/activity_main_drawer.xml" value="0.4" />
+        <entry key="..\:/dispositivosMoviles2021/agendaSQLite/app/src/main/res/menu/main.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

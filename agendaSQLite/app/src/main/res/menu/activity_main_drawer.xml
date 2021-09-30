@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crear_cita"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_agregar_citas" />
+        <item
+            android:id="@+id/nav_consulta_cita"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_listar_citas" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_persona"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_personas" />
+        <item
+            android:id="@+id/nav_citas_activas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/citas_activas" />
+    </group>
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mi agenda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Listar Personas</string>
+    <string name="menu_agregar_citas">Agregar cita</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="citas_activas">Citas Activas</string>
+    <string name="menu_personas">Agregar Persona</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="informacion_exitosa">La información se ha almacendado exitosamente</string>
+    <string name="digite_documento">Digite documento</string>
+    <string name="digite_nombre">Digite los nombre</string>
+    <string name="digite_fecha">Digite la fecha (DD-MM-AA)</string>
+    <string name="digite_hora">Digite la hora (HH:MM)</string>
+    <string name="digite_documento_persona">Digite documento de la persona</string>
+
+
+    <string name="ya_existe">La persona que está intentando registrar ya existe</string>
+    <string name="cita_ya_existe">La cita que está intentando registrar, ya existe.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="documento_cita_obligatorio">El campo documento es obligatorio</string>
+    <string name="fecha_cita_obligatorio">El campo fecha es obligatorio</string>
+    <string name="hora_cita_obligatorio">El campo hora es obligatorio</string>
+    <string name="digite_observacion">Ingrese una observación</string>
+    <string name="cita_informacion_exitosa">La información de la cita fue registrada con éxito.</string>
+    <string name="menu_listar_citas">Listar citas</string>
+    <string name="campos_obligatorios">Todos los campos son obligatorios!</string>
+    <string name="persona_cita_no_existe">La persona a la que intenta agendarle una cita no existe</string>
+    <string name="persona_cita_no_disponible">La persona ya tiene citas agendadas. Cancela la cita activa.</string>
+
+    <string name="digite_fecha_fin">Digite la fecha de finalización (DD-MM-AA)</string>
+    <string name="digite_hora_fin">Digite la hora de finalización (HH:MM)</string>
+    <string name="cita_desactivada">La cita ha sido desactivada correctamente</string>
+</resources>

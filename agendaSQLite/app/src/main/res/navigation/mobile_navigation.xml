@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="co.com.k4soft.miagenda.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_persona"
+        android:name="co.com.k4soft.miagenda.ui.personas.PersonaFragment"
+        android:label="@string/menu_personas"
+        tools:layout="@layout/fragment_persona" />
+
+
+    <fragment
+        android:id="@+id/nav_crear_cita"
+        android:name="co.com.k4soft.miagenda.ui.citas.CitaFragment"
+        android:label="Crear cita"
+        tools:layout="@layout/fragment_crear_cita" />
+
+    <fragment
+        android:id="@+id/nav_consulta_cita"
+        android:name="co.com.k4soft.miagenda.ui.citas_consulta.ConsultaCitaFragment"
+        android:label="Citas"
+        tools:layout="@layout/fragment_consulta_cita" />
+    <fragment
+        android:id="@+id/nav_citas_activas"
+        android:name="co.com.k4soft.miagenda.ui.citas_consulta.ConsultaCitaActivaFragment"
+        android:label="Citas activas"
+        tools:layout="@layout/fragment_consulta_cita_activa" />
+</navigation>
